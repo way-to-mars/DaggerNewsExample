@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat
 import java.util.Date
 
 @Serializer(forClass = Date::class)
-object DateSerializer : KSerializer<Date> {
+internal object DateSerializer : KSerializer<Date> {
     @SuppressLint("SimpleDateFormat")
     private val df: DateFormat = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ ")
 
