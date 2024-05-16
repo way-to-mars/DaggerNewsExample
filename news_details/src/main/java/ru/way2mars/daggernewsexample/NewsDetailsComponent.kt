@@ -11,6 +11,8 @@ import javax.inject.Scope
 )]
 interface NewsDetailsComponent {}
 
+// Это комментарий
+
 @Module
 internal class NewsDetailsModule
 
